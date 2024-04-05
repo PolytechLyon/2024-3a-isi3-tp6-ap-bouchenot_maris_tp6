@@ -13,6 +13,14 @@ Il n'est pas nécessaire de changer la méthode vélocity puisqu'il est égaleme
 
 ## Exercices 3
 
+Pour transformer Clock en singleton, nous avons commencé par rajouter un attribut static instance qui contient un Object de type Clock, qui sera notre singleton.
+On rajoute ensuite la méthode getInstance, qui, si instance est null, crée un Clock et la met dans instance, puis retourne instance, sinon, elle le retourne directement.
+On passe également le constructeur en privé pour s'assurer qu'une nouvelle Clock ne soit pas créer
+Ainsi, on assure l'unicité de Clock
+
+On fini par remplacer new Clock par Clock.getInstance() dans les roues pour récupérer l'instance
+
+
 ## Exercices 4
 
 ## Exercices 5
