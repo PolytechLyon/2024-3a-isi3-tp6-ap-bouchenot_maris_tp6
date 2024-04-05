@@ -23,6 +23,13 @@ On fini par remplacer new Clock par Clock.getInstance() dans les roues pour réc
 
 ## Exercices 4
 
+Non, wheel appartient au package transport tandis que Bike appartient à cycling. On a une interdépendance entre les 2 packages, ce qui est contraire aux bonnes pratiques.
+La fonctionnalité de la classe Bike qui utilise Wheel est GetPush()
+
+Oui, la classe Vehicle, qui se trouve dans transport.
+
+Ainsi, il suffit de changer le type de l'attribut drive dans wheel, en le passant de Bike à Vehicle, ainsi on appelle la méthode push de vehicle, qui est dans le package transport.
+
 ## Exercices 5
 
 ## Exercices 6
