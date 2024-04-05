@@ -2,9 +2,8 @@ package fr.polytech.sim.transport;
 
 import fr.polytech.sim.log.ConsoleLogger;
 import fr.polytech.sim.log.Logger;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+
+import java.util.*;
 
 /**
  * Vehicle abstraction.
