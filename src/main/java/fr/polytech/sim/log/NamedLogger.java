@@ -19,8 +19,8 @@ public abstract class NamedLogger implements Logger {
      public void log(String format, Object... args) {
          String entry = String.format(format, args);
          String message = String.format("%s\t%s\n", this.name, entry);
-         Output(message);
+         output(message);
      }
 
-     public abstract void Output(String msg);
+     public abstract void output(String msg);
 }

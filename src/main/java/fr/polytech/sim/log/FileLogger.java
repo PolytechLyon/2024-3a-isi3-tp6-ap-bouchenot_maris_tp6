@@ -6,7 +6,7 @@ import java.io.IOException;
 /**
  * File logger.
  */
-public class FileLogger extends NamedLogger {
+class FileLogger extends NamedLogger {
     private static final String FILE_NAME = "logs.txt";
 
     /**
@@ -19,7 +19,7 @@ public class FileLogger extends NamedLogger {
     }
 
     @Override
-    public void Output(String message)
+    public void output(String message)
     {
         try (FileWriter fileWriter = new FileWriter(FILE_NAME, true)) {
             fileWriter.write(message);

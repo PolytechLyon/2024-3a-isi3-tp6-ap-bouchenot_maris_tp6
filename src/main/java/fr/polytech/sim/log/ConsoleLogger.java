@@ -3,7 +3,7 @@ package fr.polytech.sim.log;
 /**
  * Console logger.
  */
-public class ConsoleLogger extends NamedLogger {
+class ConsoleLogger extends NamedLogger {
 
     /**
      * Constructor.
@@ -15,7 +15,7 @@ public class ConsoleLogger extends NamedLogger {
     }
 
     @Override
-    public void Output(String message)
+    public void output(String message)
     {
         System.out.print(message);
     }

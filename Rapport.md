@@ -34,6 +34,9 @@ Ainsi, il suffit de changer le type de l'attribut drive dans wheel, en le passan
 
 ## Exercices 6
 
+La différence entre cette méthode et un singleton c'est qu'on crée une unique instance dans le singleton tandis que pour les logs on souhaite creer des instances différentes à chaque utilisation, dans notre cas pour que le log est le bon nom.
+
+
 ## Exercices 7
 
 ## Exercices 8
