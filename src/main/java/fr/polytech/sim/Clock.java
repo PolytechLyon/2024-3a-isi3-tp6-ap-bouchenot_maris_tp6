@@ -9,6 +9,9 @@ public class Clock {
     private static Clock instance;
     private final int time;
 
+    private Clock(){
+        this.time = new Random().nextInt(25);
+    }
     /**
      * Random integer between 0 and 24 inclusive.
      */
