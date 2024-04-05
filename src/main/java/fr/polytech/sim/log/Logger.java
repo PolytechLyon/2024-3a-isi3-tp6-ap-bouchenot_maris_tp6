@@ -12,4 +12,10 @@ public interface Logger {
      * @param args      message arguments
      */
     void log(String format, Object... args);
+
+    public static Logger useLogger(String name)
+    {
+        return new ConsoleLogger(name);
+    }
+
 }
