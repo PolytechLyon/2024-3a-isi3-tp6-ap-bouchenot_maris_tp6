@@ -7,6 +7,7 @@ package fr.polytech.sim.log;
 public abstract class NamedLogger implements Logger {
     final protected String name;
 
+
     /**
      * Constructor.
      *
