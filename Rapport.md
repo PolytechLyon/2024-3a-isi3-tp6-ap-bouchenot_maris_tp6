@@ -40,8 +40,12 @@ La différence entre cette méthode et un singleton c'est qu'on crée une unique
 
 ## Exercices 7
 
+Nous avons crée une classe 'TimeStampedLoggerDecorator' qui herite de 'Logger' et qui possède un attribut privé de type Logger. 
+L'idée est de surcharger la méthode 'log()' afin d'afficher l'heure du log peu importe le type du log.
 
 
 ## Exercices 8
+
+
 
 
