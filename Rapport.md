@@ -46,6 +46,8 @@ L'idée est de surcharger la méthode 'log()' afin d'afficher l'heure du log peu
 
 ## Exercices 8
 
+Le patron de conception que suit la classe Context vis-à-vis l'outil ServiceLoader est Façade car elle y unifie l'accès
+Le fr.polytech.sim.cycling.Bike peut avoir plusieurs lignes. Chacune fait référence à une classe. A noter que seul la première ligne sera executée tant qu'on utilise pas 'injectAll()'
 
-
+## Exercices 9
 
