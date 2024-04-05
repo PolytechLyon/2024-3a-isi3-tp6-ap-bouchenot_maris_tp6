@@ -51,3 +51,4 @@ Le fr.polytech.sim.cycling.Bike peut avoir plusieurs lignes. Chacune fait réfé
 
 ## Exercices 9
 
+La méthode injectAll() propose un design pattern itertor
