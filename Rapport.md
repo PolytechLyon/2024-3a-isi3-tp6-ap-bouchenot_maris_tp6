@@ -51,4 +51,21 @@ Le fr.polytech.sim.cycling.Bike peut avoir plusieurs lignes. Chacune fait réfé
 
 ## Exercices 9
 
-La méthode injectAll() propose un design pattern itertor
+La méthode injectAll() propose un design pattern iterator
+voici l'implémentation de la méthode injectAll() :
+
+```java
+public static <T> Iterator<T> injectAll(Class<T> klass) {
+return ServiceLoader.load(klass).iterator();
+}
+}
+```
+Voici comment itérer la dessus :
+Iterator<Bike> it = Context.injectAll(Bike.class);
+while(it.hasNext())
+{}
+
+Cela permettra d'injecter les bike present dans notre service : fr.ploytech.sim.cycling.Bike
+
+fr.polytech.sim.cycling.TagAlongBike
+fr.polytech.sim.cycling.SimpleBike
